@@ -1,4 +1,4 @@
-
+﻿
 *{
 	margin: 0;
 	padding: 0;
@@ -544,7 +544,7 @@ a{
 #img2 {
 	float:left;
     position: absolute;
-    left:602px;
+    left:900px;
     top: 240px;
     display: none;
     width: 400px;
