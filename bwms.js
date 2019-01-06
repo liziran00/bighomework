@@ -39,7 +39,7 @@ box.onmouseout = function () {
     animate(right, {
         opacity: 0
     })
-    timer = setInterval(next, 100); 
+    timer = setInterval(next, 1000); 
 }
 
 right.onclick = next;
@@ -105,7 +105,7 @@ function navmove() {
     }
 }
 
-timer = setInterval(next, 100);
+timer = setInterval(next, 1000);
     
 function getStyle(obj, attr) { //返回值带有单位px
     if (obj.currentStyle) {
